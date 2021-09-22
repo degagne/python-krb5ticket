@@ -1,0 +1,36 @@
+body, body.wy-body-for-nav {
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+.wy-nav-content {
+    max-width: 900px;
+}
+
+div[class^=highlight] {
+    border: none!important;
+}
+
+div[class^=highlight] pre {
+    font-family: monospace!important;
+    font-size: 13px!important;
+}
+
+.code-block-caption {
+    font-style: normal!important;
+    text-align: left!important;
+    background: #d5d8d9!important;
+    padding: 8px 12px !important;
+}
+
+.highlight {
+    background: #edf0f2!important;
+}
+
+code.literal {
+    border: none!important;
+    color: black!important;
+    font-size: 15px!important;
+    font-family: monospace!important;
+    padding: 0px!important;
+    background: none!important;
+}
