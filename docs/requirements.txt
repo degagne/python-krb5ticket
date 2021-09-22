@@ -5,3 +5,4 @@ sphinx_rtd_theme
 # This allows the sphinx autodoc module
 # to load the Python modules and extract docstrings.
 # -e ..
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
