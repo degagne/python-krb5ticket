@@ -7,4 +7,4 @@ delete or list Kerberos keytab entries.
 
 .. automodule:: krb5.ktutil_helpers
     :members:
-    :undoc-members:
+    :inherited-members:
