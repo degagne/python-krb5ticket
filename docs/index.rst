@@ -25,7 +25,7 @@ Install the :code:`python-krb5ticket` library using pip:
 krb5
 ====
 
-The :ref:`Krb5 <apidoc/krb5>` class provides an interface to aquire Kerberos
+The :class:`krb5.Krb5` class provides an interface to aquire Kerberos
 ticket-granting tickets (TGTs) using either a key table file or password.
 
 .. note::
@@ -63,7 +63,7 @@ Acquires Kerberos ticket-granting ticket (TGT) with password.
 ktutil
 ======
 
-The :ref:`ktutil <apidoc/ktutil>` class provides an interface to manage
+The :class:`krb5.ktutil.ktutil` class provides an interface to manage
 Kerberos V5 key table files. This class is a wrapper around the MIT Kerberos `ktutil 
 <https://web.mit.edu/kerberos/krb5-1.12/doc/admin/admin_commands/ktutil.html?highlight=ktutil>`_ command-line interface.
 
