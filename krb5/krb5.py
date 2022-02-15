@@ -73,11 +73,9 @@ class Krb5:
         """
         Sets the Kerberos key table file.
         """
-        keytab = pathlib.Path(keytab).resolve()
-        if not keytab.exists():
-            raise KeytabFileNotExists(
-                f"Kerberos keytab file '{keytab}' doesn't exist.")
-        self._keytab = str(keytab)
+        if not pathlib.Path(keytab).resolve().exists():
+            raise KeytabFileNotExists(f"Kerberos keytab file '{keytab}' doesn't exist.")
+        self._keytab = keytab
 
     @property
     def store(self) -> t.Union[None, dict]:
