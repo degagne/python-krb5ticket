@@ -44,9 +44,9 @@ Acquires Kerberos ticket-granting ticket (TGT) with keytab file.
     :caption: Python
     :linenos:
 
-    import krb5
+    import krb5ticket
 
-    krb = krb5.Krb5("user@EXAMPLE.COM", "/tmp/krb5cc_user")
+    krb = krb5ticket.Krb5("user@EXAMPLE.COM", "/tmp/krb5cc_user")
     krb.acquire_with_keytab("/home/user/user.keytab")
 
 Acquires Kerberos ticket-granting ticket (TGT) with password.
@@ -55,9 +55,9 @@ Acquires Kerberos ticket-granting ticket (TGT) with password.
     :caption: Python
     :linenos:
 
-    from krb5 import Krb5
+    from krb5ticket import Krb5
 
-    krb = Krb5("user@EXAMPLE.COM", "/tmp/krb5cc_user")
+    krb = krb5ticket("user@EXAMPLE.COM", "/tmp/krb5cc_user")
     krb.acquire_with_password("thisismypassword")
 
 ktutil
@@ -76,7 +76,7 @@ Reads the Kerberos V5 keytab file keytab into the current keylist, then prints t
     :caption: Python
     :linenos:
 
-    from krb5 import ktutil
+    from krb5ticket import ktutil
 
     KEYTAB = "jsmith.keytab"
 
@@ -110,7 +110,7 @@ to a keytab file.
     :caption: Python
     :linenos:
 
-    from krb5 import ktutil
+    from krb5ticket import ktutil
 
     PRINCIPAL = "jsmith@EXAMPLE.COM"
     PASSWORD = "securepassword"
@@ -137,7 +137,7 @@ Deletes an entry to the current keylist and writes it to a ``NEW`` keytab file.
     :caption: Python
     :linenos:
 
-    from krb5 import ktutil
+    from krb5ticket import ktutil
 
     KEYTAB = "jsmith.keytab"
     NEW_KEYTAB = "jsmith_new.keytab"

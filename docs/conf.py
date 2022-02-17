@@ -20,7 +20,7 @@ author = "Deric Degagne"
 # built documents.
 #
 # The full version, including alpha/beta/rc tags.
-release = imp.load_source("krb5.version", os.path.join("../krb5", "version.py")).version
+release = imp.load_source("krb5ticket.version", os.path.join("../krb5ticket", "version.py")).version
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom

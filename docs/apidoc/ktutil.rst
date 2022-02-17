@@ -1,7 +1,7 @@
 ######
-Ktutil
+ktutil
 ######
 
-.. autoclass:: krb5.ktutil
+.. autoclass:: krb5ticket.ktutil
     :members:
     :inherited-members:

@@ -1,10 +1,10 @@
 # python-krb5ticket
 
-[![PythonSSH Version](https://img.shields.io/pypi/v/python-krb5ticket?style=for-the-badge)](https://pypi.org/project/python-krb5ticket/)
-[![PythonSSH Status](https://img.shields.io/pypi/status/python-krb5ticket?style=for-the-badge)](https://pypi.org/project/python-krb5ticket)
-[![PythonSSH Python Versions](https://img.shields.io/pypi/pyversions/python-krb5ticket?style=for-the-badge)](https://pypi.org/project/python-krb5ticket/)
-[![PythonSSH Release](https://img.shields.io/github/release/degagne/python-krb5ticket?style=for-the-badge)](https://github.com/degagne/python-krb5ticket/releases/)
-[![PythonSSH License](https://img.shields.io/github/license/degagne/python-krb5ticket?style=for-the-badge)](https://github.com/degagne/python-krb5ticket/blob/master/LICENSE)
+[![PythonKrb5Ticket Version](https://img.shields.io/pypi/v/python-krb5ticket?style=for-the-badge)](https://pypi.org/project/python-krb5ticket/)
+[![PythonKrb5Ticket Status](https://img.shields.io/pypi/status/python-krb5ticket?style=for-the-badge)](https://pypi.org/project/python-krb5ticket)
+[![PythonKrb5Ticket Python Versions](https://img.shields.io/pypi/pyversions/python-krb5ticket?style=for-the-badge)](https://pypi.org/project/python-krb5ticket/)
+[![PythonKrb5Ticket Release](https://img.shields.io/github/release/degagne/python-krb5ticket?style=for-the-badge)](https://github.com/degagne/python-krb5ticket/releases/)
+[![PythonKrb5Ticket License](https://img.shields.io/github/license/degagne/python-krb5ticket?style=for-the-badge)](https://github.com/degagne/python-krb5ticket/blob/master/LICENSE)
 
 **python-krb5ticket** provides a convenient interface to create Kerberos keytab files and to manage ticket-granting tickets (TGTs).
 
