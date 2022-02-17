@@ -5,7 +5,7 @@ import pandas
 import pathlib
 import subprocess
 
-from krb5.errors import KtutilCommandNotFound
+from krb5ticket.errors import KtutilCommandNotFound
 
 
 class ktutil:

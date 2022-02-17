@@ -76,3 +76,5 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.dccache
+.vscode/settings.json

@@ -5,7 +5,7 @@ import pathlib
 import shutil
 import tempfile
 
-from krb5 import KeytabFileNotExists
+from krb5ticket import KeytabFileNotExists
 
 
 class Krb5:

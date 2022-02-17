@@ -1,7 +1,7 @@
 import typing as t
 import shutil
 
-from krb5 import ktutil
+from krb5ticket import ktutil
 
 
 def create_entries(

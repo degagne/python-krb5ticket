@@ -5,8 +5,7 @@ from setuptools import setup, find_packages
 
 
 version = imp.load_source(
-    "krb5.version", os.path.join("krb5", "version.py")).version
-
+    "krb5ticket.version", os.path.join("krb5ticket", "version.py")).version
 
 setup(
     name="python-krb5ticket",
@@ -20,7 +19,7 @@ setup(
     author="Deric Degagne",
     author_email="deric.degagne@gmail.com",
     description="Simple Python wrapper to create Kerberos ticket-granting tickets (TGT)",
-    url="https://github.com/degagne/python-krb5",
+    url="https://github.com/degagne/python-krb5ticket",
     license="MIT",
     classifiers=[
         "Intended Audience :: Developers",
