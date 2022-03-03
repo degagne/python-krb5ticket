@@ -217,7 +217,7 @@ class Krb5:
         temp_dir = tempfile.mkdtemp("-krb5")
         temp_ccache = pathlib.Path(temp_dir).joinpath("ccache")
         try:
-            krb5_creds.setdefault("store", {})["ccache"] = temp_ccache
+            krb5_creds.setdefault("store", {})["ccache"] = temp_ccache.as_posix()
             return self._store_creds(
                 self._acquire_creds(krb5_creds),
                 self.ccache,
